@@ -98,12 +98,36 @@
 
   @media only screen and (max-width:768px){
     .sidebar-container{
-      width: 200px;
-      margin-left: 5rem;
+      width: 180px;
+      margin-left: 3rem;
       margin-top: 10rem;
   }
   .ml{
     margin-left: 30px;
+}
+
+}
+@media only screen and (max-width:468px){
+  .sidebar-container{
+    width: 120px;
+    margin-left: 2.8rem;
+    margin-top: 10rem;
+    font-size: 10px;
+}
+.ml{
+  margin-left: 20px;
+}
+.checkmark{
+  width: 15px;
+  height: 15px;
+}
+.sidebar-label-container .checkmark:after {
+  top: 5px;
+  left: 5px;
+  width: 5.7px;
+  height: 5.7px;
+  border-radius: 50%;
+  background: white;
 }
 
 }
