@@ -162,9 +162,12 @@
     align-items: center;
   }
 
-  @media (max-width: 665px) {
+  @media (max-width: 768px) {
     .cart-container {
         padding: 2rem;
+      }
+      .cart-container h2{
+        font-size: 23px;
       }
       .cart-container .titles {
         display: none;
