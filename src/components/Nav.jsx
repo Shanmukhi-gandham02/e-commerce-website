@@ -1,16 +1,14 @@
-import React, {useRef} from 'react'
+import React from 'react'
 import { NavLink } from 'react-router-dom'
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
-import MenuIcon from '@mui/icons-material/Menu';
+
 
 import '../styles/nav.css'
 import { useSelector } from 'react-redux';
 
 const Nav = () => {
-    const menuRef = useRef(null);
+   
     const {totalQty} = useSelector(state => state.cart)
-
-    const menuToggle = () => {menuRef.current.classList.toggle('active__menu')}
 
   return (
     <nav className='nav-bar'>
