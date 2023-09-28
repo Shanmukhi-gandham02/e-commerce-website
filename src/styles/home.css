@@ -207,14 +207,14 @@
     .main{
         width: 80%;
         margin-right: 0rem;
-        padding-left: 2rem;
+        padding-left: 0.5rem;
     }
     .list-view-item{
         width: calc(40% - 10px);
     }
     .card{
-        width: 100px;
-        height: 100px;
+        width: 150px;
+        height: 210px;
     }
     .glow-on-hover {
         width: 80px;
